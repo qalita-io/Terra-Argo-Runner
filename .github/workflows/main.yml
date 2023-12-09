@@ -38,4 +38,4 @@ jobs:
         context: .
         platforms: linux/amd64
         push: true
-        tags: your-dockerhub-username/your-image-name:latest
+        tags: qalita/terra-argo-runner:latest
