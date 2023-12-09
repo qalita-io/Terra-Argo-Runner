@@ -1,6 +1,12 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - '*'
+    tags:
+      - '*'
+  pull_request:
 
 jobs:
   lint:
@@ -38,4 +44,6 @@ jobs:
         context: .
         platforms: linux/amd64
         push: true
-        tags: qalita/terra-argo-runner:latest
+        tags: |
+          qalita/terra-argo-runner:latest
+          ${{ startsWith(github.ref, 'refs/tags/') && 'qalita/terra-argo-runner:' + github.ref_name || '' }}
