@@ -1,7 +1,7 @@
 # Docker Image for Terraform, Kubernetes, and ArgoCD Utilities
 
 <p align="center">
-  <img src="Terra_argo.png" alt="Terra Argo icon" height="100">
+  <img src="Terra_Argo.png" alt="Terra Argo icon" height="100">
 </p>
 
 ## Overview
