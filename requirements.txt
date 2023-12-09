@@ -1,0 +1,4 @@
+python-openstackclient==5.8.0
+python-novaclient==17.7.0
+python-swiftclient==3.13.1
+pyperclip==1.8.2
