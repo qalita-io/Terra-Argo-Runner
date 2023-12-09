@@ -1,5 +1,9 @@
 # Docker Image for Terraform, Kubernetes, and ArgoCD Utilities
 
+<p align="center">
+  <img src="Terra_argo.png" alt="Terra Argo icon" height="100">
+</p>
+
 ## Overview
 This Docker image provides a comprehensive suite of tools for managing and deploying applications on Kubernetes. It includes Terraform for infrastructure as code, kubectl and k9s for Kubernetes cluster management, Helm for package management, Vault for secrets management, Azure CLI for managing Azure resources, and ArgoCD for continuous delivery.
 
